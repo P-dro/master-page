@@ -1,0 +1,31 @@
+.master-page-nav-main {
+    background-color: #2E3C59;
+}
+
+.master-page-nav-dropdown {
+    text-align: right;
+    margin: 0px 0 0px auto;
+}
+
+.master-page-nav-dropdown-menu {
+    left: -30px;
+}
+
+.master-page-icon-person {
+    background-color: #62B7ED;
+    border-radius: 20px;
+}
+
+.master-page-nav-secundary {
+    background-color: #F5F5F5;
+    box-shadow: 2px 0px 5px 0px;
+}
+
+.master-page-btn-sort {
+    margin-left: 230px;
+}
+
+.master-page-input-search {
+    border-right: 0px solid #fff!important;
+    z-index: 1;
+}

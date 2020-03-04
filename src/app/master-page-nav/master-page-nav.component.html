@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-lg navbar-light master-page-nav-main">
+    <img src="../../assets/images/logo.png" alt="" srcset="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav master-page-nav-dropdown">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white text-right" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <!--  <img class="text-white" src="../../assets/icons/person.svg" alt="" width="32" height="32"
+                        title="person"> -->
+                    <svg class="master-page-icon-person bi bi-person text-white" width="32" height="32"
+                        viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M15 16s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002zM5.022 15h9.956a.274.274 0 00.014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C13.516 12.68 12.289 12 10 12c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 00.022.004zm9.974.056v-.002zM10 9a2 2 0 100-4 2 2 0 000 4zm3-2a3 3 0 11-6 0 3 3 0 016 0z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    CurrentUser
+                </a>
+                <div class="dropdown-menu master-page-nav-dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<nav class="master-page-nav-secundary navbar navbar-light bg-light">
+    <div class="master-page-btn-sort">
+        <div class="dropdown">
+            <a class=" btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Ordenar por:
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <form method="get" class="kt-quick-search__form">
+            <div class="input-group">
+                <div class="input-group-prepend"><span class="master-page-input-search input-group-text bg-white"><svg
+                            class="svg-icon" height="24" viewBox="0 0 20 20">
+                            <path
+                                d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z">
+                            </path>
+                        </svg></span>
+                </div>
+                <input type="text" class="form-control kt-quick-search__input" placeholder="Search...">
+                <div class="input-group-append">
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>

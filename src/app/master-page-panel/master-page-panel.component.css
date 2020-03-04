@@ -1,0 +1,22 @@
+.master-page-panel-main {
+    background-color: #FFFFFF;
+    width: max-content;
+    box-shadow: 0px -10px 4px 0px;
+    height: 100%;
+}
+
+.master-page-panel-itens li:hover {
+    background-color: #FAEFE5;
+    border-color: #2196F3!important;
+    border-left: 6px solid #D4742F!important;
+}
+
+.master-page-panel-itens li::focus {
+    background-color: #FAEFE5;
+    border-color: #2196F3!important;
+    border-left: 6px solid #D4742F!important;
+}
+
+.master-page-panel-itens li a:hover {
+    color: #D4742F!important;
+}
